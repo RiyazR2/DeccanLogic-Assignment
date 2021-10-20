@@ -1,0 +1,112 @@
+
+
+header,footer{
+    background-color: #066ba3;
+    color: white;
+}
+
+aside h3{
+  color: rgb(28, 123, 247);
+  font-weight: bolder;
+  
+}
+
+.navbar{
+    float: right;
+    margin-right: 10%;
+}
+
+
+ul{
+    list-style-type: square;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+li {
+    float: left;
+  }
+  
+.navbar-nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+  
+.navbar-nav li a:hover {
+    background-color:#f6f6f6    ;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    
+  }
+
+
+  .Services  { 
+    background-color: #066ba3;  
+  }
+
+  .Services a {
+    color: white;
+  }
+
+  .Services a:hover, aside li a:hover{
+    
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      color: blue;  
+    }
+  
+  /* aside li a:hover {
+    background-color:#f6f6f6;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    
+  } */
+
+  .copy{
+    padding-top: 25px;
+  } 
+
+
+  aside {
+    width: 30%;
+    float: right;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    height: 100px;
+    background-color: white;
+  }
+
+  article{
+      width: 70%;
+      padding: 10px;
+  }
+
+  ul li a{
+    list-style-type:square;
+    color: black;
+  }
+  
+  aside ul p{
+    font-size: xx-small;
+    color: black;
+    font-style: italic;
+  }
+
+  /* footer{
+    background-color: #066ba3;
+    color: white;
+} */
+
+footer .gallery img{
+  width: 60px;
+  height: 60px;
+}
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
